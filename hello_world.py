@@ -29,4 +29,4 @@ if k.lower() == "no":
 elif k.lower() == "yes":
     print("Not good, Telling Mom and Dad")
     print("Add teacher note.")
-    
+   
