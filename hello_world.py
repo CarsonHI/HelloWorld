@@ -1,4 +1,4 @@
-print("Hello")
+print("Hello!")
 print("What food do you like?")
 x = input()
 if x.lower() == "pasta":
