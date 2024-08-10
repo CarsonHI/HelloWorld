@@ -20,4 +20,3 @@ elif percent >= 75:
 else:
   print("Great effort!")
   print ("Telling Mom And Dad..............")
-percent = int(input("Enter quiz score (out of 100): "))
