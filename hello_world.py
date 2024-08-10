@@ -20,3 +20,11 @@ elif percent >= 75:
 else:
   print("Great effort!")
   print ("Telling Mom And Dad..............")
+
+print ("Did the teacher keep you in for recces?")
+k = input()
+
+if k.lower() == "no":
+    print("Yeah, good job. Telling Mom and Dad")
+elif k.lower() == "yes":
+    print("Not good, Telling Mom and Dad")
