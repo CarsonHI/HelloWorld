@@ -28,3 +28,5 @@ if k.lower() == "no":
     print("Yeah, good job. Telling Mom and Dad")
 elif k.lower() == "yes":
     print("Not good, Telling Mom and Dad")
+    print("Add teacher note.")
+    
