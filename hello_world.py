@@ -70,5 +70,27 @@ while(program_choice != 5):
         rec = fin_lit
 
     print("We recommend this course: " + rec)
+  else:
+    planet = input("Pick a planet: Mars, Mercury, Venus, or Jupiter ")
 
+    gravity= 0.0
+    if planet == "Mars" or planet == "Mercury":
+      gravity = 3.7
+    elif planet == "Venus":
+      gravity = 3.7
+    elif planet == "Venus":
+      gravity = 8.9
+    elif planet == "Jupiter":
+      gravity = 23.1
+    else:
+      print("Unrecongized planet")
+
+    if gravity:
+      ask = float(input("How much does it weigh on Earth (kg)?"))
+      
+      normal = 9.81
+      mass = normal / gravity
+      now = round(mass * gravity, 1)
+      
+      print("It would weigh" + str(now) + "kg on " + planet + ".")
 print("GOODBYE!!!!")
