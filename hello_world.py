@@ -8,7 +8,8 @@ while(program_choice != 5):
     " 2. Test score"+
     " 3. Did you stay in for recces"+
     " 4. What course you want to do"+
-    " 5. to quit    "
+    " 5. How much kg would it be on Planets"+
+    " 6. To qiut      "
   ))
 
   if program_choice == 1: 
@@ -70,7 +71,7 @@ while(program_choice != 5):
         rec = fin_lit
 
     print("We recommend this course: " + rec)
-  else:
+  elif program_choice == 5:
     planet = input("Pick a planet: Mars, Mercury, Venus, or Jupiter ")
 
     gravity= 0.0
@@ -86,11 +87,12 @@ while(program_choice != 5):
       print("Unrecongized planet")
 
     if gravity:
-      ask = float(input("How much does it weigh on Earth (kg)?"))
+      earth_weight = float(input("How much does it weigh on Earth (kg)?"))
       
-      normal = 9.81
-      mass = normal / gravity
+      earth_gravity= 9.81
+      mass = earth_weight / earth_gravity
       now = round(mass * gravity, 1)
       
       print("It would weigh" + str(now) + "kg on " + planet + ".")
-print("GOODBYE!!!!")
+  else :
+    print("GOODBYE!!!!")
