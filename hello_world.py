@@ -11,7 +11,8 @@ while(program_choice != 5):
     " 3. Did you stay in for recces"+
     " 4. What course you want to do"+
     " 5. How much kg would it be on Planets"+
-    " 6. To qiut      "
+    " 6. Win Mop"+
+    " 7. To Quit"
   ))
 
   if program_choice == 1: 

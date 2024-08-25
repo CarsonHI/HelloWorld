@@ -1,0 +1,15 @@
+
+import random
+num_flips = 0
+print("Put in 10 Mop")
+
+while num_flips < 5:
+    coin_flip = random.randint(1, 2)
+    if coin_flip == 1:
+    print("Heads!")
+    print("You didnt win")
+    else:
+    print ("Tails!")
+    print ("You won 50 Mop")
+    
+    num_flips = num_flips + 1
