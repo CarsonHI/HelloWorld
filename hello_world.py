@@ -2,7 +2,9 @@ print("Hello!")
 
 program_choice = 0
 while(program_choice != 5):
-  program_choice = int(input(
+
+  program_choice = 0
+  int(input(
     " Please select a program: " +
     " 1. Food quiz "+
     " 2. Test score"+
@@ -94,5 +96,17 @@ while(program_choice != 5):
       now = round(mass * gravity, 1)
       
       print("It would weigh" + str(now) + "kg on " + planet + ".")
-  else :
-    print("GOODBYE!!!!")
+  elif program_choice == 6:
+    import random
+    num_flips = 0
+
+    while num_flips < 1:
+      coin_flip = random.randint(1, 2)
+      if coin_flip == 1:
+        print("Heads!")
+        print("You didnt win")
+      else:
+        print ("Tails!")
+        print ("You won 10 Mop")
+      
+      num_flips = num_flips + 1
