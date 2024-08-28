@@ -1,0 +1,23 @@
+import random
+
+needs_necter = 20000
+has_necter = 0
+nectar_deposits = 0
+
+for hour in range(7 * 18) :
+
+    dropoff = random.randint
+        has_necter// 4, 
+        3 * has_necter // 4
+    )
+    
+    pickups = random.randint(
+        needs_necter // 4,
+        3 * needs_necter // 4
+    )
+
+    has_necter = has_necter + pickups
+    needs_necter = needs_necter - pickups
+
+    print(str(has_necter) + " (Has) ")
+    print(str(has_necter) + " (Needs)")
