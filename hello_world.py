@@ -15,7 +15,7 @@ while(program_choice != 5):
     " 7. To Quit"
   ))
 
-  if program_choice == 1: 
+  if program_choice == 1 : 
     print("What food do you like?")
     x = input()
     if x.lower() == "pasta":
@@ -99,3 +99,4 @@ while(program_choice != 5):
       print("It would weigh" + str(now) + "kg on " + planet + ".")
   else: 
     print("GOODBYE!")
+    break
